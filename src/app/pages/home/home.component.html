@@ -1,0 +1,46 @@
+<div class="mt-5 pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="mb-5">User List</h1>
+      </div>
+      <div class="col-md-4 col-lg-3" *ngFor="let user of userList">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">
+              {{ user.first_name }} {{ user.last_name }}
+            </h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <span class="fw-bold">Username: </span>
+              {{ user.username }}
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Email: </span>
+              {{ user.email }}
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Phone: </span>
+              {{ user.phone_number }}
+            </li>
+          </ul>
+          <div class="card-body ms-auto">
+            <a
+              class="btn btn-outline-secondary me-2"
+              [routerLink]="'/edit-user/' + user.id"
+              >Edit</a
+            >
+            <a class="btn btn-outline-danger" (click)="deleteUser(user.id)"
+              >Delete</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

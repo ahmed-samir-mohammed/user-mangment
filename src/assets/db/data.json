@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "email": "lindsay.ferguson@reqres.eg.com",
+      "first_name": "Lindsayasas",
+      "last_name": "Fergusonddd",
+      "username": "lindsay.ferguson",
+      "password": "lindsay.ferguson",
+      "phone_number": "1234567893333",
+      "department": "UI Design"
+    },
+    {
+      "id": 3,
+      "email": "tobias.funke@reqres.in",
+      "first_name": "Tobias",
+      "last_name": "Funkeasdasdasd",
+      "username": "tobias.funke",
+      "password": "tobias.funke",
+      "phone_number": "123456789",
+      "department": "UI Design"
+    },
+    {
+      "id": 4,
+      "email": "byron.fields@reqres.in",
+      "first_name": "Byron",
+      "last_name": "Fields",
+      "username": "byron.fields",
+      "password": "byron.fields",
+      "phone_number": "123456789",
+      "department": "UI Design"
+    },
+    {
+      "id": 5,
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "last_name": "Edwards",
+      "username": "george.edwards",
+      "password": "george.edwards",
+      "phone_number": "123456789",
+      "department": "UI Design"
+    },
+    {
+      "id": 6,
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "last_name": "Howell",
+      "username": "rachel_howell",
+      "password": "rachel_howell",
+      "phone_number": "123456789",
+      "department": "UI Design"
+    },
+    {
+      "id": 1.976671284124797,
+      "email": "samierahmed37@gmail.com",
+      "first_name": "Ahmed",
+      "last_name": "Samier",
+      "username": "asdasdsd",
+      "password": "asdasdsd",
+      "phone_number": "01000775376",
+      "department": "UI Design"
+    },
+    {
+      "id": 1.3507684659919357,
+      "email": "samierahmed37@gmail.com",
+      "first_name": "Ahmed",
+      "last_name": "Samier",
+      "username": "maisamirazzam",
+      "password": "asdasdsd",
+      "phone_number": "asdasdasd",
+      "department": "UI Design"
+    },
+    {
+      "id": 1.0136783657681918,
+      "email": "ali@mostafa.com",
+      "first_name": "Ali",
+      "last_name": "Mostafa",
+      "username": "ali_mosa44",
+      "password": "ahmed",
+      "phone_number": "99883636110",
+      "department": "Frontend"
+    }
+  ]
+}
